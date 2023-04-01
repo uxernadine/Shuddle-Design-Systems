@@ -1,26 +1,27 @@
 import './App.css';
+import Button from './lib/components/Button';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
+            <img src="shuddleLogoDark.png" className="App-logo" alt="shuddle logo" />
         <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
+          Shuddle Design System Pilot
         </p>
-        <p className="small">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
+
+        {/* <p>
           <a
             className="App-link"
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Learn More
           </a>
-        </p>
+        </p> */}
+        
+        <Button label="Learn More"/>
       </header>
     </div>
   );
