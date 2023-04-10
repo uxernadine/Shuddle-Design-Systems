@@ -4,7 +4,7 @@ var color = designTokens.IPTS.color;
   
 const Button = (props) => {  
   return (
-    <button className="dribbble-button"
+    <button className="button"
       style={{
         backgroundColor: color.primary.default.value,
         color: color.neutral.default.value,
