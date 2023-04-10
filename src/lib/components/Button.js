@@ -1,16 +1,18 @@
 import React from 'react';
+import designTokens from './tokens.json';
+var color = designTokens.IPTS.color;
   
 const Button = (props) => {  
   return (
     <button className="dribbble-button"
       style={{
-        backgroundColor: '#eb4c89',
-	    color: 'white',
-        fontFamily: 'Comic Sans MS',
-	    fontSize: '24px',
-	    border: 'none',
-	    padding: '16px',
-	    borderRadius: '8px'
+        backgroundColor: color.primary.default.value,
+        color: color.neutral.default.value,
+        fontFamily: designTokens.IPTS.ipts.text['H4-Bold'].value.fontFamily,
+        fontSize: designTokens.IPTS.ipts.text['H4-Bold'].value.fontSize,
+        border: 'none',
+        padding: '16px 8px',
+        borderRadius: '8px'
       }}
     >	
       {props.label}
