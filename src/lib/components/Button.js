@@ -1,6 +1,6 @@
 import React from 'react';
 import designTokens from './tokens.json';
-var color = designTokens.IPTS.color;
+var color = designTokens.global.color;
   
 const Button = (props) => {  
   return (
@@ -8,8 +8,8 @@ const Button = (props) => {
       style={{
         backgroundColor: color.primary.default.value,
         color: color.neutral.default.value,
-        fontFamily: designTokens.IPTS.ipts.text['H4-Bold'].value.fontFamily,
-        fontSize: designTokens.IPTS.ipts.text['H4-Bold'].value.fontSize,
+        fontFamily: designTokens.global['H4-Bold'].value.fontFamily,
+        fontSize: designTokens.global['H4-Bold'].value.fontSize,
         border: 'none',
         padding: '16px 8px',
         borderRadius: '8px'
