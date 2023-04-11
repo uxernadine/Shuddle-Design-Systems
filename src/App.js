@@ -1,5 +1,6 @@
 import './App.css';
 import Card from './lib/components/Card'
+import Button from './lib/components/Button';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           title="Shuddle Guide"
           description="Explore the galaxy in a new way with Shuddle"
         />
-        
+        <Button label="read more" />
       </header>
     </div>
   );
