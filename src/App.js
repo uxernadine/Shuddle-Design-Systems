@@ -22,9 +22,34 @@ function App() {
         </p> */}
         
         <Button label="Learn More"/>
+
       </header>
     </div>
   );
 }
 
 export default App;
+
+/*
+
+  function App() {
+  return (
+    <div className="App">
+      <h1>My Cards</h1>
+      <Card
+        image="https://via.placeholder.com/300x200"
+        title="Card 1"
+        description="This is a description of card 1."
+        url="https://example.com/card1"
+      />
+      <Card
+        image="https://via.placeholder.com/300x200"
+        title="Card 2"
+        description="This is a description of card 2."
+        url="https://example.com/card2"
+      />
+    </div>
+  );
+}
+
+*/
