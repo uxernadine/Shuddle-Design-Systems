@@ -1,6 +1,5 @@
 import React from 'react';
 import Button from './Button';
-import designTokens from './tokens.json';
 
 const Card = (props) => {  
     return (
@@ -16,5 +15,5 @@ const Card = (props) => {
     )
   
   }
-  
+
   export default Card;
