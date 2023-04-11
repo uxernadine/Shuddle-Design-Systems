@@ -9,6 +9,7 @@ const Button = (props) => {
         backgroundColor: color.primary.travel.default.value,
         color: color.neutral.default.value,
         fontSize: designTokens.global.fontSize.h4.value,
+        //fontSize: designTokens.global.h2.value.fontSize,
         border: 'none',
         padding: '16px 8px',
         borderRadius: '8px'
