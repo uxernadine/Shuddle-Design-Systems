@@ -15,7 +15,13 @@ var color = designTokens.Shuddle.global.color;
         }}
       >
           <img src={props.image} alt={props.title} />
-          <div className="CardBody">
+          <div className="CardBody"
+            style={{
+              fontFamily: designTokens.Shuddle.fontFamilies.IBM.value,
+              fontSize: designTokens.Shuddle.fontSize[3].value,
+              padding: '16px',
+            }}
+          >
             {props.title}
             <p>
               {props.description}
