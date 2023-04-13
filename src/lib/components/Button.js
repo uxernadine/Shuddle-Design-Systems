@@ -10,6 +10,7 @@ const Button = (props) => {
         color: color.neutral.default.value,
         fontSize: designTokens.Shuddle.fontSize[2].value,
         fontWeight: designTokens.Shuddle.fontWeights['IBM-Plex-Mono'].value,
+        fontFamily: designTokens.Shuddle.fontFamilies.IBM.value,
         padding: '16px 8px',
         borderRadius: designTokens.IPTS.small.value
       }}
