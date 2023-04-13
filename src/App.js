@@ -11,7 +11,7 @@ function App() {
         </p>
         <Card
           image="https://a0.muscache.com/im/pictures/miso/Hosting-28254684/original/99bd44d1-abca-4b1c-b5da-eb05eaac9193.jpeg?im_w=720"
-          title="Shuddle Guide"
+          title="Shuddle Stay"
           description="Explore the galaxy in a new way with Shuddle"
         />
       </header>
