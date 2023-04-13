@@ -15,7 +15,6 @@ function App() {
           title="Shuddle Guide"
           description="Explore the galaxy in a new way with Shuddle"
         />
-        <Button label="read more" />
       </header>
     </div>
   );

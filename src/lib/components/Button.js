@@ -1,6 +1,6 @@
 import React from 'react';
 import designTokens from './tokens.json';
-var color = designTokens.global.color;
+var color = designTokens.Shuddle.global.color;
 
 const Button = (props) => {  
   return (
@@ -8,10 +8,8 @@ const Button = (props) => {
       style={{
         backgroundColor: color.primary.travel.default.value,
         color: color.neutral.default.value,
-        fontSize: designTokens.global.fontSize.h4.value,
-        fontWeight: designTokens.global.fontWeights['inter-0'].value,
-        padding: '16px 8px',
-        borderRadius: designTokens.global.borderRadius.value
+        fontSize: designTokens.Shuddle.H3.Bold.value.fontSize,
+        padding: '16px 8px'
       }}
     >	
       {props.label}
