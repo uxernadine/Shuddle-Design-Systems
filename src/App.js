@@ -10,7 +10,7 @@ function App() {
           Shuddle Design System Pilot
         </p>
         <Card
-          image="https://via.placeholder.com/150x150"
+          image="https://a0.muscache.com/im/pictures/miso/Hosting-28254684/original/99bd44d1-abca-4b1c-b5da-eb05eaac9193.jpeg?im_w=720"
           title="Shuddle Guide"
           description="Explore the galaxy in a new way with Shuddle"
         />

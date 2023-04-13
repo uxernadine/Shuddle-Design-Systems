@@ -7,9 +7,11 @@ var color = designTokens.Shuddle.global.color;
     return (
       <card className="card"
         style={{
-          backgroundColor: color.primary.default.value,
-          color: color.neutral.default.value,
-          fontSize: designTokens.Shuddle.H3.Bold.value.fontSize
+          backgroundColor: color.neutral.default.value,
+          color: color.neutral.secondary.value,
+          fontSize: designTokens.Shuddle.fontSize[3].value,
+          borderRadius: designTokens.IPTS.small.value,
+          boxShadow: '6px 4px 24px -7px rgba(147,112,216,0.62)'
         }}
       >
           <img src={props.image} alt={props.title} />
