@@ -2,6 +2,10 @@ import React from 'react';
 import Button from './Button';
 import designTokens from './tokens.json';
 var color = designTokens.Shuddle.global.color;
+var shuddleFontFamily = designTokens.Shuddle.fontFamilies.IBM.value;
+var shuddleFontWeight = designTokens.Shuddle.fontWeights['IBM-Plex-Mono'].value;
+var iptsFontFontFamily = designTokens.IPTS.fontFamilies.inter.value;
+var iptsFontWeight = designTokens.IPTS.fontWeights['font-inter-bold'].value;
 
   const Card = (props) => {  
     return (
@@ -17,7 +21,8 @@ var color = designTokens.Shuddle.global.color;
           <img src={props.image} alt={props.title} />
           <div className="CardBody"
             style={{
-              fontFamily: designTokens.Shuddle.fontFamilies.IBM.value,
+              fontFamily: shuddleFontFamily,
+              fontWeight: shuddleFontWeight,
               fontSize: designTokens.Shuddle.fontSize[3].value,
               padding: '16px',
             }}
