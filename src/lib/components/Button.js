@@ -3,7 +3,7 @@ import designTokens from './tokens.json';
 var color = designTokens.Shuddle.global.color;
 var shuddleFontFamily = designTokens.Shuddle.fontFamilies.IBM.value;
 var shuddleFontWeight = designTokens.Shuddle.fontWeights['IBM-Plex-Mono'].value;
-var iptsFontFontFamily = designTokens.IPTS.fontFamilies.inter.value;
+var iptsFontFamily = designTokens.IPTS.fontFamilies.inter.value;
 var iptsFontWeight = designTokens.IPTS.fontWeights['font-inter-bold'].value;
 
 const Button = (props) => {  
