@@ -1,11 +1,10 @@
 {
-  "name": "shuddle-design-system",
+  "name": "shuddle-design-system-uxernadine",
   "description": "The design system for Shuddle",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "repository": "https://github.com/uxernadine/Shuddle-Design-Systems/",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.16.5",
