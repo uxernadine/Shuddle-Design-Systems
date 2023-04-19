@@ -1,0 +1,30 @@
+@import url("tokens.json");
+
+:root {
+    --shuddleFontFamily: var(--designTokens.Shuddle.fontFamilies.IBM.value);
+    --shuddleFontWeightBold: var(--designTokens.Shuddle.fontWeights['IBM-Plex-Mono'].value);
+    --shuddleFontWeightRegular: var(--designTokens.Shuddle.fontWeights['IBM-Plex-Monos'].value);
+    --shuddleFontSizeH4: var(--designTokens.Shuddle.fontSize[3].value);
+    --shuddleFontSizeBody: var(--designTokens.Shuddle.fontSize[2].value);
+    --backgroundColor: var(--designTokens.Shuddle.global.color.neutral.default.value);
+    --textColor: var(--designTokens.Shuddle.global.color.neutral.secondary.value);
+    --borderRadius: var(--designTokens.IPTS.small.value);
+}
+
+.card {
+    background-color: var(--backgroundColor);
+    color: var(--textColor);
+    border-radius: var(--borderRadius);
+    display: flex;
+}
+.card-title {
+    font-weight: var(--shuddleFontWeightBold);
+    font-size: var(--shuddleFontSizeH4);
+    font-family: var(--shuddleFontFamily);
+    padding: '16px';
+} 
+.card-description {
+    font-weight: var(--shuddleFontWeightRegular);
+    font-size: var(--shuddleFontSizeBody);
+    font-family: var(--shuddleFontFamily);
+}
